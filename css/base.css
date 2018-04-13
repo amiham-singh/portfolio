@@ -149,8 +149,14 @@ p {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+@media (max-width: 768px)
 
+{
+.hover p {
+  font-size: .8rem;
+ }
 
+}
 .report{
 font-family: 'Lato', sans-serif;
 }
